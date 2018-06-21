@@ -18,9 +18,8 @@ public class A {
      * @return sum of inputs
      */
     public int addNumbers(int a, int b) {
-        int sum = a + b;
-        this.lastSum = sum;
-        return sum;
+        lastSum = a + b;
+        return lastSum;
     }
 
     private void initialize() {

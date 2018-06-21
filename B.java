@@ -8,10 +8,10 @@ public class B extends A {
     }
 
     public String returnStringB(String str) {
-        return this.doSomethingInB(str);
+        return this.thisMethodHasBeenRenamed(str);
     }
 
-    private String doSomethingInB(String str) {
+    private String thisMethodHasBeenRenamed(String str) {
         str = str + b;
         return str.toLowerCase();
     }
