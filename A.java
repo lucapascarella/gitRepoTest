@@ -26,4 +26,9 @@ public class A {
         // Initialize instance variable
         this.lastSum = 0;
     }
+
+    public static void startClient(String name, Registry.Factory<? extends Client> client, String[] args)  throws IOException, Exception{
+    	doSomethingHere();
+
+    }
 }
