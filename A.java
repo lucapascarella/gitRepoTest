@@ -1,6 +1,8 @@
 
 public class A {
-    
+
+    private int lastSum;
+
     public A() {
         super();
         initialize();
@@ -8,15 +10,21 @@ public class A {
 
     /**
      * This method return a sum of two numbers
-     * @param a first number
-     * @param b second number
+     * 
+     * @param a
+     *            first number
+     * @param b
+     *            second number
      * @return sum of inputs
      */
     public int addNumbers(int a, int b) {
-        return a + b;
+        int sum = a + b;
+        this.lastSum = sum;
+        return sum;
     }
-    
+
     private void initialize() {
-        // TODO something
+        // Initialize instance variable
+        this.lastSum = 0;
     }
 }
