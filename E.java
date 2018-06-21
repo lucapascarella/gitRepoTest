@@ -8,7 +8,6 @@ public class B extends A {
     }
 
     public String returnStringB(String str) {
-        String aaaa;
         return this.thisMethodHasBeenRenamed(str);
     }
 
