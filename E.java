@@ -12,7 +12,7 @@ public class B extends A {
     }
 
     private String thisMethodHasBeenRenamed(String str) {
-        str = str + b;
+        str = strE;
         return str.toLowerCase();
     }
 
