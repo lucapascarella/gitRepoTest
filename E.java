@@ -1,7 +1,7 @@
 
 public class B extends A {
 
-    private int b;
+    private int a;
 
     public B(int b) {
         this.b = b;
